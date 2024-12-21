@@ -10,3 +10,21 @@ git push -u origin main
 git diff
 git diff --staged
 git remote add origin https://github.com/rishikeshtawade/gitPractice.git
+git branch feature1      -- create repo in local
+git push -u origin feature1 -- create repo in remote
+
+git switch feature1  -- to change branch
+git checkout feature1  -- to change branch
+git checkout -b feature1  -- to create and switch branch
+
+git merge feature1   -- this merges to feature1 branch   
+two types of mearges 1) fast forword and 2 ) recursive or three way mearge
+
+git pull <remote-name> <branch-name>
+
+git clone <repository-url>
+git clone -b <branch-name> <repository-url>
+
+git branch -- see present branches
+
+
