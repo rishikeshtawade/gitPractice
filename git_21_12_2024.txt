@@ -1,1 +1,12 @@
 this is git rishikesh
+
+git init 
+git remote add origin https://github.com/rishikeshtawade/gitPractice.git
+code git_21_12_2024.txt
+git add git_21_12_2024.txt
+git status
+git commit -m "git fist commit"
+git push -u origin main
+git diff
+git diff --staged
+git remote add origin https://github.com/rishikeshtawade/gitPractice.git
